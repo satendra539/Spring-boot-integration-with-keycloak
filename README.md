@@ -1,9 +1,13 @@
 ## Spring Boot Keycloak
 
-#Run Keycloak using docker otherwise download and follow the steps from- https://www.keycloak.org/getting-started/getting-started-zip
+#Spring boot application with keycloak integration.
 
-docker run -p "8080:8080" -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=pass jboss/keycloak
+#following features has been done 
 
-#check for basic steps- https://www.baeldung.com/spring-boot-keycloak
-
+1- Setup Keycloak
+2- Create token API
+3- Refresh Token
+4- Login with user registered on Keycloak
+5- Authorization based on user role
+6- Keycloak Auth Provider to validate token expiry
 
